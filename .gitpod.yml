@@ -1,0 +1,6 @@
+image:
+  file: Dockerfile
+tasks:
+  - command: "cobc -x -o clientes.exe clientes.cob"
+ports:
+  - port: 3000
